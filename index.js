@@ -38,7 +38,7 @@ client.on('ready', () => {
 // Surveille les messages
 client.on('message', msg => {
 
-  if (msg.content === '^^ping') {     // Si le message dit "^^ping"
+  if (msg.content === 'ping') {     // Si le message dit "^^ping"
     msg.reply('Pong! :ping_pong:');   // Répond "Pong!"
   }
 
